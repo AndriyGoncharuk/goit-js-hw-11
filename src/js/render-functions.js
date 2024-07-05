@@ -9,10 +9,10 @@ export function renderGallery(images) {
                 <img class="gallery-image" src="${image.webformatURL}" alt="${image.tags}" />
             </a>
             <div class="info">
-                <p span>Likes: ${image.likes}</p>
-                <p span>Views: ${image.views}</p>
-                <p span>Comments: ${image.comments}</p>
-                <p span>Downloads: ${image.downloads}</p>
+                <p>Likes: <br /><span>${image.likes}</span></p>
+                <p>Views: <br /><span>${image.views}</span></p>
+                <p>Comments: <br /><span>${image.comments}</span></p>
+                <p>Downloads: <br /><span>${image.downloads}</span></p>
             </div>
         </li>
     `).join('');
